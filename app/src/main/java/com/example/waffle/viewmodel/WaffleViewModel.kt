@@ -120,7 +120,7 @@ class WaffleViewModel @Inject constructor(
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    fun incrementCounter(
+    fun waffleMaker(
         identityUri: Uri,
         iconUri: Uri,
         identityName: String,

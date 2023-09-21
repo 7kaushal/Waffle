@@ -59,7 +59,7 @@ fun WaffleCard(
         Button(
             enabled = viewState.canTransact,
             onClick = {
-                waffleViewModel.incrementCounter(identityUri, iconUri, identityName, intentSender, waffle)
+                waffleViewModel.waffleMaker(identityUri, iconUri, identityName, intentSender, waffle)
             }
         ) {
             Text(text = "Tap me!")
